@@ -1,7 +1,6 @@
-package com.clientes;
+package com.clientes.controlador;
 
 import com.clientes.entity.Cliente;
-import com.clientes.entity.ClienteRepository;
 import com.clientes.service.ClienteService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/clientes")
+@RequestMapping("api/cliente")
 @RequiredArgsConstructor
 public class ClienteControlador {
 
